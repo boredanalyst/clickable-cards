@@ -1,0 +1,41 @@
+* {
+    transition:ease-in-out 100ms all;
+}
+
+main {
+    display:flex;
+}
+
+article {
+    padding:5vh;
+    margin:auto;
+    border:0.1vh red solid;
+    border-radius:5vh;
+    box-shadow:0.5vh 0.5vh 1vh gray;
+}
+
+article section {
+    display:flex;
+}
+
+h3 {
+    margin-top:12vh;
+}
+ul {
+    list-style:square;
+}
+
+button {
+    border:none;
+    background-color:yellowgreen;
+    color:white;
+    margin-left:auto;
+    padding:2vh;
+    box-shadow:0.5vh 0.5vh 1vh gray;
+}
+
+button:hover {
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
